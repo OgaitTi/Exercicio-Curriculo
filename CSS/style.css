@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    background-image: linear-gradient(90deg, rgba(2,4,25,1) 28%, rgba(21,26,99,1) 43%, rgba(38,38,145,0.9976365546218487) 55%, rgba(43,43,168,0.9976365546218487) 67%, rgba(49,49,200,0.9976365546218487) 77%, rgba(71,71,207,1) 87%, rgba(89,89,217,0.9976365546218487) 95%);
+    width: 90vw;
+    height: 121vh;
+}
+
+
+
+a:link, a:visited {
+    color:  #34495E;
+}
+
+a:hover{
+    background-color: #055792;
+    color: #D6EAF8;
+    padding: 5px;
+    border-radius: 30px;
+    
+}
+a:active {
+    color: #D6EAF8;
+}
+
+#name {
+    position: absolute;
+    font-size: 5em;
+    right: 0;
+    margin: 200px 100px;
+}
+
+.palavras {
+    position: absolute;
+    font-size: 3em;
+    bottom: 300px;
+    color: #34495E 
+    
+}
+.palavras-um {
+    position: absolute;
+    font-size: 2.7em;
+    bottom: 230px;
+    color: #34495E ;
+    
+    
+}
+.palavras-tres {
+    position: absolute;
+    font-size: 3em;
+    bottom: 150px;
+    color: #34495E;
+    
+    
+}
+
+.adress {
+    position: absolute;
+    color: #D6EAF8;
+    font-size: 2.1em;
+    text-align: center;
+    margin: 300px 100px 300px 470px;
+
+}
+
+#email { 
+        position: absolute;
+        color: #D6EAF8;
+        font-size: 2.0em;
+        text-align: center;
+        margin: 400px 100px 300px 630px;
+}
+.my { 
+    position: absolute;
+    color: #D6EAF8;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 460px 50px 300px 440px;
+}
+
+
+
+#linha-img {
+    position: absolute;
+    background-color: black;
+    width: 300px;
+    height: 757px;
+    display: flex;
+    justify-content: center;
+    opacity: 0.7;
+    
+}
+
+#foto {
+    position: absolute;
+    margin: 170px 30px;
+    border-radius: 80%;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.icon {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin: 550px 400px 100px 500px;
+    opacity: 0.5;
+}
+
+
+.icon-two {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin: 550px 100px 100px 650px;
+    opacity: 0.5;
+}
+
+.icon-three {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin: 550px 100px 100px 800px;
+    opacity: 0.5;
+
+}
+.icon-four {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin: 550px 100px 100px 950px;
+    opacity: 0.5;
+
+}
+
+/* conhecimentos */
+
+
+
+.conhecimento {
+    position: absolute;
+    font-size: 4em;
+    margin: 100px 600px;
+    color: #D6EAF8;
+    
+}
+
+.lista-desordenada {
+    position: absolute;
+    font-size: 2em;
+    margin: 300px 600px;
+    color: #D6EAF8;
+    
+}
+
+/* Objetivos */
+
+.objetivo {
+    position: absolute;
+    font-size: 4em;
+    margin: 100px 700px;
+    color: #D6EAF8;
+    
+}
+
+.falando-de-mim {
+    position: absolute;
+    font-size: 2em;
+    margin: 300px 0px 400px 350px;
+    color: #D6EAF8;
+    text-align: center;
+}
+
+.frase {
+    position: absolute;
+    font-size: 2em;
+    margin: 450px 0px 400px 350px;
+    color: #D6EAF8;
+    text-align: center;
+}
